@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Guy 2021</title>
+  <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+  integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+  <body id="top">
+    <header class="header" data-header>
+      <div class="container">
+        <div class="overlay" data-overlay></div>
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" alt="Filmlane logo">
+        </a>
+        <div class="header-actions">
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+          <div class="lang-wrapper">
+            <label for="language">
+              <ion-icon name="globe-outline"></ion-icon>
+            </label>
+            <select name="language" id="language">
+              <option value="en">EN</option>
+              <option value="au">FR</option>
+              <option value="ar">AR</option>
+            </select>
+          </div>
+          <a href="pricing.html" class="btn btn-primary">Subscribe</a>
+        </div>
+        <button class="menu-open-btn" data-menu-open-btn>
+          <ion-icon name="reorder-two"></ion-icon>
+        </button>
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.svg" alt="Filmlane logo">
+            </a>
+            <button class="menu-close-btn" data-menu-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </div>
+          <ul class="navbar-list">
+            <li><a href="index.html" class="navbar-link">Home</a></li>
+            <li><a href="movie.html" class="navbar-link">Movies</a></li>
+            <li><a href="about.html" class="navbar-link">About Us</a></li>
+            <li><a href="contact.html" class="navbar-link">Contact Us</a></li>
+            <li><a href="pricing.html" class="navbar-link">Pricing</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  <main>
+    <section class="formulaire">
+      <h3>Say hi! Don't be shy.</h3>
+      <p>Email us with any questions or inquiries, We would be happy to answer your questions and set up a meeting with you.</p>
+      <form action="#" method="post">
+        <div class="nameInp">
+          <i class="fa fa-user icon" style="color: black; margin-top: 5px; vertical-align: center;"></i>
+          <input type="text" placeholder="Full Name" name="name" id="name">
+      </div>
+      <div class="mailInp">
+          <i class="fa fa-envelope" style="color: black; margin-top: 5px; vertical-align: center;"></i>
+          <input type="email" name="mail" id="mail" placeholder="Email">
+      </div>
+      <div class="phoneInp">
+          <i class="fa-solid fa-phone" style="color: black; margin-top: 5px; vertical-align: center;"></i>
+          <input type="number" name="phone" id="phone" placeholder="Phone" min="100000" max="9999999999">
+      </div>
+      <div class="queryInp">
+          <textarea name="query" id="query" cols="30" rows="5"
+              placeholder="Any comment or your query"></textarea>
+      </div>
+      <div class="submitBtn">
+          <button id="btn" onclick="notif()">Send</button>
+      </div>
+      </form>
+      </section>
+    </main>
+    <footer>
+      <div class="row primary">
+        <div class="column about">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="Filmlane logo">
+          </a>
+        </div>
+        <div class="column links">
+          <h3>Connect with us</h3>
+          <ul class="social-list" style="display: ruby; list-style-type: none; padding: 0;">
+            <li style="display: inline;">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li style="display: inline;">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li style="display: inline;">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+    
+        <div class="column links">
+          <h3>Help</h3>
+          <ul>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Customer Support</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Jobs</a></li>
+          </ul>
+        </div>
+    
+        <div class="column subscribe">
+          <h3>Download Movies Mobile App</h3>
+          <div><a href="#"><img width="200px" src="assets/images/Download_on_the_App_Store_Badge_FRCA_RGB_blk.svg.png" alt="Download on the App Store"></a></div>
+          <div><a href="#"><img width="200px" src="assets/images/Google_Play_Store_badge_EN.svg.webp" alt="Get it on Google Play"></a></div>
+        </div>
+      </div>
+    
+      <div class="row copyright">
+        <div style="display: ruby; width: 100%;" class="footer-menu">
+          <p style="padding-right:900px ;">Copyright &copy; 2024 Anass Essadikine</p>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+    <a href="#top" class="go-top" data-go-top>
+      <ion-icon name="chevron-up"></ion-icon>
+    </a>
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
